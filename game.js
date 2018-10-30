@@ -72,11 +72,11 @@ draw = function() {
 
 
      //move paddle left (A key)
-   if(keyIsPressed && key.toString() === 'a') {
+   if(__keyPressed && key.toString() === 'a') {
        paddleX -= 10;
     //move paddle right (d key)
    }
-   if(keyIsPressed && key.toString() === 'd') {
+   if(__keyPressed && key.toString() === 'd') {
        paddleX += 10;
     }
     bounceCommands();
