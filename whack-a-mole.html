@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Alexs Whack a mole<!doctype html>
+            <html>
+                <head>
+                    <title>. Alexs Whack A Mole</title>
+            
+                    <!-- Include the processing.js library -->
+                    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+            
+                    <!-- Include your processing sketch -->
+                    <script src="game.js"></script>
+            
+                    <!-- Some style to make it look better -->
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                </head>
+                <body>
+                    <section class="section">
+                        <div class="container">
+                            <h1 class="title">Alexs' Whack A Mole</h1>
+                            
+                            <!-- Your processing sketch -->
+                            <canvas id="myCanvas"></canvas>
+                            <script>        
+                                // Get the canvas that Processing-js will use
+                                var canvas = document.getElementById("myCanvas"); 
+                                // Pass the function sketchProc (defined in game.js) to Processing's constructor.
+                                var processingInstance = new Processing(canvas, sketchProc); 
+                            </script>
+                        </div>
+                        
+                        <!-- Put a space between the canvas and the about section -->
+                        <br>
+            
+                        <!-- An area to have -->
+                        <div class="container">
+                            <h3 class="subtitle">About this Sketch</h3>
+                            This pong game is a single player "challenge mode". while it doesnt seem like much now, my next devolpment step is a counter and a local leaderboard,<br> 
+                            so that people can challenge their friends locally.<br>
+                            directions<br>
+                            keep the ball bouncing for as long as you can!<br>
+                            a=left, d=right<br>
+                            
+                        </div>
+                    </section>
+                </body>
+            </html></title>A</title>
+
+        <!-- Include the processing.js library -->
+        <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+
+        <!-- Include your processing sketch -->
+        <script src="game.js"></script>
+
+        <!-- Some style to make it look better -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">Alexs' pong game</h1>
+                
+                <!-- Your processing sketch -->
+                <canvas id="myCanvas"></canvas>
+                <script>        
+                    // Get the canvas that Processing-js will use
+                    var canvas = document.getElementById("myCanvas"); 
+                    // Pass the function sketchProc (defined in game.js) to Processing's constructor.
+                    var processingInstance = new Processing(canvas, sketchProc); 
+                </script>
+            </div>
+            
+            <!-- Put a space between the canvas and the about section -->
+            <br>
+
+            <!-- An area to have -->
+            <div class="container">
+                <h3 class="subtitle">About this Sketch</h3>
+                This pong game is a single player "challenge mode". while it doesnt seem like much now, my next devolpment step is a counter and a local leaderboard,<br> 
+                so that people can challenge their friends locally.<br>
+                directions<br>
+                keep the ball bouncing for as long as you can!<br>
+                a=left, d=right<br>
+                
+            </div>
+        </section>
+    </body>
+</html>
