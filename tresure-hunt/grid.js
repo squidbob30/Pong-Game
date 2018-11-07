@@ -5,6 +5,7 @@ const DIRECTION = Object.freeze({
     RIGHT: Symbol("RIGHT")
 });
 
+
 class Grid {
 
     // Make a new grid with a specified number of rows and colums

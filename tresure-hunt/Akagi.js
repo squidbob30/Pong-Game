@@ -1,10 +1,10 @@
-class MythraSIPP {
+class Akagi {
     constructor(grid, col, row) {
         this.grid = grid
         this.col = col
         this.row =  row
         
-        this.img = loadImage('emote.png');
+        this.img = loadImage('9a199a320b9fbd39bdd6ae775e00ea80.png');
         
 
         // TODO: save grid, col, and row as instance variables on this object

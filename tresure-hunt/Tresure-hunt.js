@@ -1,4 +1,4 @@
-var mythraSIPP;
+var akagi;
 var grid;
 
 // Gets called before game is loaded. 
@@ -6,7 +6,7 @@ var grid;
 var preload = function() {
 
     grid = new Grid(10, 10);
-    mythraSIPP = new MythraSIPP(grid, 0, 0);
+    akagi = new Akagi(grid, 0, 0);
 }
 
 // Before the draw function ever gets called, setup gets called
@@ -21,22 +21,25 @@ var setup = function() {
 // game draws new frames
 var draw = function() {
 
-    // Draw the grid first, then the mythraSIPP on top of it
+    // Draw the grid first, then the akagi on top of it
+  
     grid.drawGrid();
-    mythraSIPP.draw();
+    background (0, 0, 0);
+    akagi.draw();
+
 }
 
 function keyTyped() {
     if (key === 'w') {
-        mythraSIPP.moveUp()
+        akagi.moveUp()
     }
     if (key === 's') {
-        mythraSIPP.moveDown()
+        akagi.moveDown()
     }
     if (key === 'a') {
-        mythraSIPP.moveLeft()
+        akagi.moveLeft()
     }
     if (key === 'd') {
-        mythraSIPP.moveRight();
+        akagi.moveRight();
     }
 }
