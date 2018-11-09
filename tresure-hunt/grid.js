@@ -12,7 +12,9 @@ class Grid {
     constructor(cols, rows) {
         this.cols = cols;
         this.rows = rows;
+        
     }
+
 
     // This syntax allows other code to retrieve the cellWidth
     // as if it were a variable instead of a function.
@@ -78,6 +80,7 @@ class Grid {
               0, 0,
               drawWidth, drawHeight);
         pop();
+
     }
 }
                 
